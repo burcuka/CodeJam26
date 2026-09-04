@@ -1,0 +1,52 @@
+name: "💬 Feature Feedback"
+description: "❗Important! Please select a feature via a label."
+title: "FEEDBACK for [AddFeatureHere] "
+labels: ["feedback", "ux"]
+assignees: []
+body:
+  - type: dropdown
+    id: relevance
+    attributes:
+      label: "🎯 Relevance for your work"
+      description: "How relevant is this feature for your day-to-day work?"
+      options:
+        - "1 – Not relevant"
+        - "2 – Moderately relevant"
+        - "3 – Highly relevant"
+  - type: dropdown
+    id: devflow
+    attributes:
+      label: "⚙️ Implementation / Development Flow"
+      description: "How do you rate the development flow or steps required to implement this feature?"
+      options:
+        - "1 – Poor / unclear"
+        - "2 – Acceptable"
+        - "3 – Smooth and well-structured"
+  - type: dropdown
+    id: documentation
+    attributes:
+      label: "📚 Documentation (SAP Help Portal)"
+      description: "How helpful is the documentation for this feature?"
+      options:
+        - "1 – Not helpful"
+        - "2 – Sufficient"
+        - "3 – Very helpful"
+  - type: textarea
+    id: strengths
+    attributes:
+      label: "✅ What works well?"
+      description: "Describe aspects of the feature that work as expected or are particularly useful."
+      placeholder: "Your answer here"
+  - type: textarea
+    id: improvements
+    attributes:
+      label: "🛠️ What could be improved?"
+      description: "Suggestions, missing functionality, or areas for improvement."
+      placeholder: "Your answer here"
+  - type: textarea
+    id: additional
+    attributes:
+      label: "💭 Additional Feedback"
+      description: "Any other thoughts, edge cases, or ideas you want to share."
+      placeholder: "Your answer here"
+
